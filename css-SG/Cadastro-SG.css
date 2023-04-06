@@ -1,0 +1,110 @@
+:root {
+    --preto: #252525;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+body {
+    background-color: var(--preto);
+}
+.ri > img {
+    width: 120px;
+}
+.cab {
+    display: flex;
+    flex-wrap: wrap;
+}
+.ri {
+    display: flex;
+    flex-wrap: wrap;
+}
+nav {
+    background-color: rgb(155, 155, 155);
+    display: flex;
+    flex-direction: row;
+    max-width: 1300px;
+    height: 500px;
+    margin-left: 20px;
+    border-right: 4px red solid;
+    border-top: 4px red solid;
+    border-bottom: 1px red solid;
+    border-left: 1px red solid;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: var(--preto);
+    width: 50%;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+}
+.left > h1 {
+    text-shadow: 1px 1px red;
+    color: white;
+    font-size: 30px;
+}
+.right {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+.right >h2 {
+    color: red;
+    text-shadow: 1px 1px black;
+}
+.right > input {
+    border: hidden;
+    width: 300px;
+    height: 40px;
+    border-radius: 7px;
+    color: white;
+    background-color: #252525;
+}
+@media (max-width:650px){
+    nav{
+        flex-direction: column;
+    }
+    .left, .right {
+        width: 100%;
+    }
+}
+h2 {
+    font-family: sans-serif;
+    margin: 5px;
+}
+.end > a {
+    border: 1px red solid;
+    text-decoration: none;
+    color: red;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: sans-serif;
+    transition: 100ms;
+    background-color: #252525;
+}
+
+.end > a:hover {
+    background-image: linear-gradient(to top right,#252525,#252525, #252525, red );
+    font-size: 25px;
+    transition: 100ms;
+}
+.end {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
