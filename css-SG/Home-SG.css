@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #252525;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #252525;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    border-bottom: gray 1px solid;
+}
+.le > img {
+    max-width: 100px;
+}
+.link > a {
+    text-decoration: none;
+    color: red;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.ri {
+    width: 560px;
+    display: flex;
+    margin-right: 5px;
+    padding: 20px;
+}
+.link > a {
+    transition: 100ms;
+}
+.link > a:hover {
+    color: rgb(255, 110, 110);
+    transition: 100ms;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 65px;
+    justify-content: center;
+    align-items: flex-start;
+    border-bottom: 5px solid gray;
+    padding-top: 20px;
+}
+.search {
+    display: flex;
+    max-width: 400px;
+    height: 40px;
+    background-color: red;
+    border-radius: 10px;
+}
+.search > input {
+    width: 350px;
+    border-radius: 10px;
+    border: hidden;
+    background-color: white;
+}
+.link {
+    margin-right: 10px;
+}
+.search {
+    color: white;
+}
+.p1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8px;
+    width: 250px;
+    height: 320px;
+    min-width: 250px;
+    min-height: 320px;
+    background-color: gray;
+    border: 1px red solid;
+    border-radius: 20px;
+    box-shadow: 2px 3px 8px red;
+}
+.pmage {
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    height: 80%;
+    border-bottom: red 1px solid;
+}
+.pmage > img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+.pa {
+    padding-top: 20px;
+}
+.pa > a {
+    font-family: sans-serif;
+    background-color: #252525;
+    font-weight: 700;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: white;
+    border: white 1px solid;
+    border-radius: 10px;
+    transition: 100ms;
+}
+.pa > a:hover {
+    font-size: 20px;
+    transition: 100ms;
+}
+.p0 {
+    display: flex;
+    overflow: scroll;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.p0::-webkit-scrollbar {
+    display: none;
+}
+main > h1 {
+    color: red;
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+.hr {
+    width: 100%;
+}
+.hr > hr {
+    border: none;
+    background-color: red;
+    margin-left: 90px;
+    margin-right: 90px;
+}
