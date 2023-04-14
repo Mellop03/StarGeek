@@ -49,6 +49,7 @@ main {
 .f1 {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     margin-top: 100px;
     margin-bottom: 60px;
@@ -90,6 +91,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     margin-top: 60px;
     margin-bottom: 60px;
 }

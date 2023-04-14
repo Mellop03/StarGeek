@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #252525;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #252525;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    border-bottom: gray 1px solid;
+}
+.le > img {
+    max-width: 100px;
+}
+.link > a {
+    text-decoration: none;
+    color: red;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.ri {
+    width: 560px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 5px;
+    padding: 20px;
+}
+.link > a {
+    transition: 100ms;
+}
+.link > a:hover {
+    color: rgb(255, 110, 110);
+    transition: 100ms;
+}
+.search > input {
+    max-width: 350px;
+    border-radius: 10px;
+    border: hidden;
+    background-color: white;
+}
+.link {
+    margin-right: 10px;
+}
+.search {
+    color: white;
+}
+.search {
+    display: flex;
+    max-width: 400px;
+    height: 40px;
+    background-color: red;
+    border-radius: 10px;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 65px;
+    padding-top: 10px;
+}
+.adc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px red solid;
+}
+.adc > h1 {
+    color: red;
+    font-family: sans-serif;
+}
+.etc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+}
+.etc > h1 {
+    color: red;
+    font-family: sans-serif;
+}
+.fra {
+    display: flex;
+    background-image: url(/img/bf1.jpg);
+    width: 170px;
+    height: 210px;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: end;
+    margin: 10px;
+    transition: 100ms;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fra:hover {
+    background-image: url(/img/battlefield-bf1.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 100ms;
+}
+.fra2 {
+    margin: 10px;
+    display: flex;
+    background-image: url(/img/download.jpg);
+    width: 170px;
+    height: 210px;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: end;
+    transition: 100ms;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fra2:hover {
+    background-image: url(/img/CczD.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 100ms;
+}
+.fra3 {
+    margin: 10px;
+    display: flex;
+    background-image: url(/img/sda.jpg  );
+    width: 170px;
+    height: 210px;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: end;
+    transition: 100ms;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fra3:hover {
+    background-image: url(/img/cow-barnyard.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 100ms;
+}
+.fra4 {
+    margin: 10px;
+    display: flex;
+    background-image: url(/img/ghost.jpg);
+    width: 170px;
+    height: 210px;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: end;
+    transition: 100ms;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fra4:hover {
+    background-image: url(/img/fantama.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 100ms;
+}
+.fra5 {
+    margin: 10px;
+    display: flex;
+    background-image: url(/img/mongus.png);
+    width: 170px;
+    height: 210px;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: end;
+    transition: 100ms;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fra5:hover {
+    background-image: url(/img/mongusfg.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 100ms;
+}
+.fra6 {
+    margin: 10px;
+    display: flex;
+    background-image: url(/img/mine.jpg);
+    width: 170px;
+    height: 210px;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: end;
+    transition: 100ms;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fra6:hover {
+    background-image: url(/img/minegut.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 100ms;
+}
+.fra7 {
+    margin: 10px;
+    display: flex;
+    background-image: url(/img/fuguete.jpg);
+    width: 170px;
+    height: 210px;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: end;
+    transition: 100ms;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fra7:hover {
+    background-image: url(/img/carrokjij.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 100ms;
+}
+.fra7 {
+    margin: 10px;
+    display: flex;
+    background-image: url(/img/jw.jpg);
+    width: 170px;
+    height: 210px;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: end;
+    transition: 100ms;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fra7:hover {
+    background-image: url(/img/jwed.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 100ms;
+}
+.fra8 {
+    margin: 10px;
+    display: flex;
+    background-image: url(/img/matrix.JPG);
+    width: 170px;
+    height: 210px;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: end;
+    transition: 100ms;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fra8:hover {
+    background-image: url(/img/metrixd.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 100ms;
+}
+.fra9 {
+    margin: 10px;
+    display: flex;
+    background-image: url(/img/Carros_pôster.jpg);
+    width: 170px;
+    height: 210px;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: end;
+    transition: 100ms;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fra9:hover {
+    background-image: url(/img/gifs-do-filme-cars-da-disney-0.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 100ms;
+}
+.fra10 {
+    margin: 10px;
+    display: flex;
+    background-image: url(/img/91cXSl1fqKL._AC_SY550_oys.jpg);
+    width: 170px;
+    height: 210px;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: end;
+    transition: 100ms;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fra10:hover {
+    background-image: url(/img/macaca.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 100ms;
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+@media(max-width:875px) {
+    .adc {
+        width: 40%;
+    }
+    .etc {
+        margin-top: 80px;
+    }
+}
+@media(max-width:490px) {
+    .etc {
+        margin-top: 140px;
+    }
+    .adc {
+        width: 50%;
+    }
+}
