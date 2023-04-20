@@ -162,6 +162,32 @@ main > h1 {
     justify-content: center;
     padding-top: 20px;
 }
+.lis {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+}
+.lis > a {
+    text-decoration: none;
+    color: red;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+.lis > a:hover {
+    color: rgb(255, 110, 110);
+}
+.lis > h3 {
+    color: red;
+    text-decoration: underline gray;
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 @media(max-width:620px) {
     .ft {
         margin-top: 180px;

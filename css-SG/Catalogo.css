@@ -112,6 +112,7 @@ main {
 .fra:hover {
     background-image: url(/img/battlefield-bf1.gif);
     background-size: cover;
+    background-position-x: center;
     background-repeat: no-repeat;
     transition: 100ms;
 }
@@ -130,6 +131,7 @@ main {
 }
 .fra2:hover {
     background-image: url(/img/CczD.gif);
+    background-position-x: center;
     background-size: cover;
     background-repeat: no-repeat;
     transition: 100ms;
@@ -149,6 +151,7 @@ main {
 }
 .fra3:hover {
     background-image: url(/img/cow-barnyard.gif);
+    background-position-x: center;
     background-size: cover;
     background-repeat: no-repeat;
     transition: 100ms;
@@ -195,6 +198,7 @@ main {
     margin: 10px;
     display: flex;
     background-image: url(/img/mine.jpg);
+    background-position-x: center;
     width: 170px;
     height: 210px;
     border-radius: 7px;
@@ -263,6 +267,7 @@ main {
 }
 .fra8:hover {
     background-image: url(/img/metrixd.jpeg);
+    background-position-x: center;
     background-size: cover;
     background-repeat: no-repeat;
     transition: 100ms;
@@ -282,6 +287,7 @@ main {
 }
 .fra9:hover {
     background-image: url(/img/gifs-do-filme-cars-da-disney-0.gif);
+    background-position-x: center;
     background-size: cover;
     background-repeat: no-repeat;
     transition: 100ms;
@@ -301,6 +307,7 @@ main {
 }
 .fra10:hover {
     background-image: url(/img/macaca.jpeg);
+    background-position-x: center;
     background-size: cover;
     background-repeat: no-repeat;
     transition: 100ms;
@@ -311,6 +318,33 @@ main {
     padding: 10px;
     align-items: center;
     justify-content: center;
+}
+.lis {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+}
+.lis > a {
+    text-decoration: none;
+    color: red;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+.lis > a:hover {
+    color: rgb(255, 110, 110);
+}
+.lis > h3 {
+    color: red;
+    text-decoration: underline gray;
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: red 2px solid;
 }
 @media(max-width:875px) {
     .adc {
