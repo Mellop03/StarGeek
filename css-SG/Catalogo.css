@@ -103,7 +103,7 @@ main {
 }
 .fra {
     display: flex;
-    background-image: url(bf1.jpg);
+    background-image: url(/img/bf1.jpg);
     width: 170px;
     height: 210px;
     border-radius: 7px;
@@ -115,7 +115,7 @@ main {
     background-repeat: no-repeat;
 }
 .fra:hover {
-    background-image: url(battlefield-bf1.gif);
+    background-image: url(/img/battlefield-bf1.gif);
     background-size: cover;
     background-position-x: center;
     background-repeat: no-repeat;
@@ -124,7 +124,7 @@ main {
 .fra2 {
     margin: 10px;
     display: flex;
-    background-image: url(download.jpg);
+    background-image: url(/img/download.jpg);
     width: 170px;
     height: 210px;
     border-radius: 7px;
@@ -135,7 +135,7 @@ main {
     background-repeat: no-repeat;
 }
 .fra2:hover {
-    background-image: url(CczD.gif);
+    background-image: url(/img/CczD.gif);
     background-position-x: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -144,7 +144,7 @@ main {
 .fra3 {
     margin: 10px;
     display: flex;
-    background-image: url(sda.jpg  );
+    background-image: url(/img/sda.jpg  );
     width: 170px;
     height: 210px;
     border-radius: 7px;
@@ -155,7 +155,7 @@ main {
     background-repeat: no-repeat;
 }
 .fra3:hover {
-    background-image: url(cow-barnyard.gif);
+    background-image: url(/img/cow-barnyard.gif);
     background-position-x: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -164,7 +164,7 @@ main {
 .fra4 {
     margin: 10px;
     display: flex;
-    background-image: url(ghost.jpg);
+    background-image: url(/img/ghost.jpg);
     width: 170px;
     height: 210px;
     border-radius: 7px;
@@ -175,7 +175,7 @@ main {
     background-repeat: no-repeat;
 }
 .fra4:hover {
-    background-image: url(fantama.gif);
+    background-image: url(/img/fantama.gif);
     background-size: cover;
     background-repeat: no-repeat;
     transition: 100ms;
@@ -183,7 +183,7 @@ main {
 .fra5 {
     margin: 10px;
     display: flex;
-    background-image: url(mongus.png);
+    background-image: url(/img/mongus.png);
     width: 170px;
     height: 210px;
     border-radius: 7px;
@@ -194,7 +194,7 @@ main {
     background-repeat: no-repeat;
 }
 .fra5:hover {
-    background-image: url(mongusfg.gif);
+    background-image: url(/img/mongusfg.gif);
     background-size: cover;
     background-repeat: no-repeat;
     transition: 100ms;
@@ -202,7 +202,7 @@ main {
 .fra6 {
     margin: 10px;
     display: flex;
-    background-image: url(mine.jpg);
+    background-image: url(/img/mine.jpg);
     background-position-x: center;
     width: 170px;
     height: 210px;
@@ -214,7 +214,7 @@ main {
     background-repeat: no-repeat;
 }
 .fra6:hover {
-    background-image: url(minegut.gif);
+    background-image: url(/img/minegut.gif);
     background-size: cover;
     background-repeat: no-repeat;
     transition: 100ms;
@@ -222,7 +222,7 @@ main {
 .fra7 {
     margin: 10px;
     display: flex;
-    background-image: url(fuguete.jpg);
+    background-image: url(/img/fuguete.jpg);
     width: 170px;
     height: 210px;
     border-radius: 7px;
@@ -233,7 +233,7 @@ main {
     background-repeat: no-repeat;
 }
 .fra7:hover {
-    background-image: url(carrokjij.gif);
+    background-image: url(/img/carrokjij.gif);
     background-size: cover;
     background-repeat: no-repeat;
     transition: 100ms;
@@ -241,7 +241,7 @@ main {
 .fra7 {
     margin: 10px;
     display: flex;
-    background-image: url(jw.jpg);
+    background-image: url(/img/jw.jpg);
     width: 170px;
     height: 210px;
     border-radius: 7px;
@@ -252,7 +252,7 @@ main {
     background-repeat: no-repeat;
 }
 .fra7:hover {
-    background-image: url(jwed.gif);
+    background-image: url(/img/jwed.gif);
     background-size: cover;
     background-repeat: no-repeat;
     transition: 100ms;
@@ -260,7 +260,7 @@ main {
 .fra8 {
     margin: 10px;
     display: flex;
-    background-image: url(matrix.JPG);
+    background-image: url(/img/matrix.JPG);
     width: 170px;
     height: 210px;
     border-radius: 7px;
@@ -271,7 +271,7 @@ main {
     background-repeat: no-repeat;
 }
 .fra8:hover {
-    background-image: url(metrixd.jpeg);
+    background-image: url(/img/metrixd.jpeg);
     background-position-x: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -280,7 +280,7 @@ main {
 .fra9 {
     margin: 10px;
     display: flex;
-    background-image: url(Carros_pôster.jpg);
+    background-image: url(/img/Carros_pôster.jpg);
     width: 170px;
     height: 210px;
     border-radius: 7px;
@@ -291,7 +291,7 @@ main {
     background-repeat: no-repeat;
 }
 .fra9:hover {
-    background-image: url(gifs-do-filme-cars-da-disney-0.gif);
+    background-image: url(/img/gifs-do-filme-cars-da-disney-0.gif);
     background-position-x: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -300,7 +300,7 @@ main {
 .fra10 {
     margin: 10px;
     display: flex;
-    background-image: url(91cXSl1fqKL._AC_SY550_oys.jpg);
+    background-image: url(/img/91cXSl1fqKL._AC_SY550_oys.jpg);
     width: 170px;
     height: 210px;
     border-radius: 7px;
@@ -311,7 +311,7 @@ main {
     background-repeat: no-repeat;
 }
 .fra10:hover {
-    background-image: url(macaca.jpeg);
+    background-image: url(/img/macaca.jpeg);
     background-position-x: center;
     background-size: cover;
     background-repeat: no-repeat;
