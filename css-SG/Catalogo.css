@@ -103,7 +103,7 @@ main {
 }
 .fra {
     display: flex;
-    background-image: url(/img/bf1.jpg);
+    background-image: url(./img/bf1.jpg);
     width: 170px;
     height: 210px;
     border-radius: 7px;
