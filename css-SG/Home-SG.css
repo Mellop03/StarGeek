@@ -36,10 +36,7 @@ header {
     margin-right: 10px;
 }
 .ri {
-    width: 560px;
     display: flex;
-    margin-right: 5px;
-    padding: 20px;
     flex-wrap: wrap;
 }
 .link > a {
@@ -59,13 +56,13 @@ main {
 }
 .search {
     display: flex;
-    max-width: 400px;
+    width: 30%;
     height: 40px;
     background-color: red;
     border-radius: 10px;
 }
 .search > input {
-    max-width: 350px;
+    width: 100%;
     border-radius: 10px;
     border: hidden;
     background-color: white;
@@ -191,5 +188,12 @@ footer {
 @media(max-width:620px) {
     .ft {
         margin-top: 180px;
+    }
+    .search {
+        width: 110%;
+    }
+    .link > a {
+        margin-left: 5px;
+        margin-right: 5px;
     }
 }

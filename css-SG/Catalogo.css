@@ -36,7 +36,6 @@ header {
     margin-right: 10px;
 }
 .ri {
-    width: 560px;
     display: flex;
     flex-wrap: wrap;
     margin-right: 5px;
@@ -50,7 +49,7 @@ header {
     transition: 100ms;
 }
 .search > input {
-    max-width: 350px;
+    width: 100%;
     border-radius: 10px;
     border: hidden;
     background-color: white;
@@ -63,7 +62,7 @@ header {
 }
 .search {
     display: flex;
-    max-width: 400px;
+    width: 30%;
     height: 40px;
     background-color: red;
     border-radius: 10px;
@@ -77,9 +76,14 @@ main {
 .adc {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    border-right: 1px red solid;
+}
+.adc2 {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-right: 1px red solid;
 }
 .adc > h1 {
     color: red;
@@ -87,6 +91,7 @@ main {
 }
 .etc {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     width: 80%;
@@ -346,19 +351,113 @@ footer {
     justify-content: center;
     border-top: red 2px solid;
 }
-@media(max-width:875px) {
-    .adc {
-        width: 40%;
+@media(max-width:1000px){
+     h1 {
+        font-size: 22px;
     }
-    .etc {
-        margin-top: 80px;
+    .fra {
+        width: 100px;
+        height: 140px;
+    }
+    .fra2 {
+        width: 100px;
+        height: 140px;
+    }
+    .fra3 {
+        width: 100px;
+        height: 140px;
+    }
+    .fra4 {
+        width: 100px;
+        height: 140px;
+    }
+    .fra5 {
+        width: 100px;
+        height: 140px;
+    }
+    .fra6 {
+        width: 100px;
+        height: 140px;
+    }
+    .fra7 {
+        width: 100px;
+        height: 140px;
+    }
+    .fra8 {
+        width: 100px;
+        height: 140px;
+    }
+    .fra9 {
+        width: 100px;
+        height: 140px;
+    }
+    .fra10 {
+        width: 100px;
+        height: 140px;
     }
 }
-@media(max-width:490px) {
-    .etc {
-        margin-top: 140px;
+@media(max-width:520px){
+    main {
+        flex-direction: column;
+    }
+    .adc2 {
+        flex-direction: row;
+        flex-wrap: wrap;
+        border-right: none;
+        border-bottom: 1px solid red;
     }
     .adc {
-        width: 50%;
+        border: none;
+    }
+    .etc {
+        width: 100%;
+    }
+    .link > a {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .ri {
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+    .fra {
+        width: 85px;
+        height: 125px;
+    }
+    .fra2 {
+        width: 85px;
+        height: 125px;
+    }
+    .fra3 {
+        width: 85px;
+        height: 125px;
+    }
+    .fra4 {
+        width: 85px;
+        height: 125px;
+    }
+    .fra5 {
+        width: 85px;
+        height: 125px;
+    }
+    .fra6 {
+        width: 85px;
+        height: 125px;
+    }
+    .fra7 {
+        width: 85px;
+        height: 125px;
+    }
+    .fra8 {
+        width: 85px;
+        height: 125px;
+    }
+    .fra9 {
+        width: 85px;
+        height: 125px;
+    }
+    .fra10 {
+        width: 85px;
+        height: 125px;
     }
 }
